@@ -11,10 +11,10 @@
   "plugins": {
     "reg-keygen-git-hash-plugin": true,
     "reg-notify-github-plugin": {
-      "clientId": "MzQzMrc0Nzc11U9OzEkuzUksyS/SLc8sydAtyywuTczRLUktLsnMS9c3NTYxNzDSz0it1E0uTUoFAA=="
+      "clientId": "MzSzNDA3NzM20C8oSkzWLUpN1y0uzSzRNzMxNDE21c82zisxKAcA"
     },
-    "reg-publish-s3-plugin": {
-      "bucketName": "heycube-snapshots"
+    "reg-publish-gcs-plugin": {
+      "bucketName": "reg-suit"
     }
   }
 }
