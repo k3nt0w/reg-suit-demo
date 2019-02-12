@@ -1,0 +1,20 @@
+{
+  "core": {
+    "workingDir": ".reg",
+    "actualDir": "actual_images",
+    "thresholdRate": 0,
+    "addIgnore": true,
+    "ximgdiff": {
+      "invocationType": "client"
+    }
+  },
+  "plugins": {
+    "reg-keygen-git-hash-plugin": true,
+    "reg-notify-github-plugin": {
+      "clientId": "MzQzMrc0Nzc11U9OzEkuzUksyS/SLc8sydAtyywuTczRLUktLsnMS9c3NTYxNzDSz0it1E0uTUoFAA=="
+    },
+    "reg-publish-s3-plugin": {
+      "bucketName": "heycube-snapshots"
+    }
+  }
+}
